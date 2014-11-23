@@ -31,7 +31,6 @@ names(joinActivity) <- "Activity"
 names(joinSubject) <- "Subject"
 
 cleanedData <- cbind(joinSubject, joinActivity,joinData)
-write.table(cleanedData, "cleaned_data.txt")
 
 # 5. creates a second, independent tidy data set with the average of each variable 
 # for each activity and each subject.
